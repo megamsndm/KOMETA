@@ -4,8 +4,8 @@ KOMETA — KMC Organic Molecular Exciton Transport Analysis
 Entry point. Run:  python kometa_gui.py
 """
 import sys
-from PyQt5.QtWidgets import QApplication
-from PyQt5.QtGui import QColor, QPalette
+from PySide6.QtWidgets import QApplication
+from PySide6.QtGui import QColor, QPalette
 from kometa.gui.main_window import MainWindow
 from kometa.gui.style import C_BG, C_WHITE, C_TEAL, C_PANEL
 
@@ -29,7 +29,7 @@ def main():
 
     win = MainWindow()
     win.show()
-    sys.exit(app.exec_())
+    sys.exit(app.exec())
 
 
 if __name__ == '__main__':

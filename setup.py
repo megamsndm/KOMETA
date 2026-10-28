@@ -18,7 +18,7 @@ setup(
         "numpy>=1.20",
         "scipy>=1.6",
         "matplotlib>=3.3",
-        "PyQt5>=5.12",
+        "PySide6>=5.12",
         "h5py>=3.0",
         "scikit-learn>=0.24",
     ],

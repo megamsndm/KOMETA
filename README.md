@@ -9,7 +9,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org)
 
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)]()
-[![PyQt5](https://img.shields.io/badge/GUI-PyQt5-41CD52?logo=qt)](https://riverbankcomputing.com/software/pyqt/)
+[![PySide6](https://img.shields.io/badge/GUI-PySide6-41CD52?logo=qt)](https://doc.qt.io/qtforpython-6/)
 
 **Developed by Dr. Mohsen Doust Mohammadi**
 
@@ -76,7 +76,7 @@ Molecule → ORCA → λ, J, T₁, S, ħω → KOMETA → KMC simulation → Res
 - Anisotropic 3D diffusion tensor
 
 ### GUI — Deep Space Science Theme
-- PyQt5 desktop application with dark navy/teal/gold palette
+- PySide6 desktop application with dark navy/teal/gold palette
 - 7 parameter tabs: General, Morphology, Charge, MLJ, TTA, Blend, Quenching
 - Tick exactly which **calculations** and **output figures** you want — no wasted runs
 - Live console output during simulation
@@ -98,7 +98,7 @@ Python  >= 3.10
 numpy   >= 1.20
 scipy   >= 1.6
 matplotlib >= 3.3
-PyQt5   >= 5.12
+PySide6 >= 6.5
 h5py    >= 3.0
 scikit-learn >= 0.24
 ```

@@ -1,12 +1,12 @@
 # kometa/gui/run_panel.py
 import os, subprocess, platform
-from PyQt5.QtWidgets import (
+from PySide6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout,
     QLabel, QPushButton, QTextEdit, QProgressBar,
     QMessageBox, QSizePolicy
 )
-from PyQt5.QtCore import Qt
-from PyQt5.QtGui  import QFont
+from PySide6.QtCore import Qt
+from PySide6.QtGui  import QFont
 
 try:
     from .style import *

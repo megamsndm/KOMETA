@@ -1,10 +1,10 @@
 # kometa/gui/worker.py
 import sys, traceback
-from PyQt5.QtCore import QThread, pyqtSignal
+from PySide6.QtCore import QThread, Signal
 
 class SimWorker(QThread):
-    log_signal  = pyqtSignal(str)
-    done_signal = pyqtSignal(bool, str)
+    log_signal  = Signal(str)
+    done_signal = Signal(bool, str)
 
     def __init__(self, params: dict):
         super().__init__()

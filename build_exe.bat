@@ -29,7 +29,7 @@ if errorlevel 1 (
 
 REM ── Install required packages if missing ─────────────────────────────────
 echo [INFO] Checking required packages...
-pip install --quiet pyqt5 matplotlib scipy numpy
+pip install --quiet pyside6 matplotlib scipy numpy
 
 REM ── Clean previous build artifacts ───────────────────────────────────────
 echo [INFO] Cleaning previous build...
@@ -47,7 +47,7 @@ if errorlevel 1 (
     echo.
     echo  Common fixes:
     echo  1. Upgrade PyInstaller:  pip install --upgrade pyinstaller
-    echo  2. Install all deps:     pip install pyqt5 matplotlib scipy numpy h5py
+    echo  2. Install all deps:     pip install pyside6 matplotlib scipy numpy h5py
     echo  3. Disable antivirus temporarily during build
     echo  4. Delete build\ and dist\ folders, then retry
     echo.

@@ -61,14 +61,13 @@ a = Analysis(
     datas=datas,
     hiddenimports=[
         # Qt
-        'PyQt5.sip',
-        'PyQt5.QtCore',
-        'PyQt5.QtGui',
-        'PyQt5.QtWidgets',
-        'PyQt5.QtPrintSupport',
+        'PySide6.QtCore',
+        'PySide6.QtGui',
+        'PySide6.QtWidgets',
+        'PySide6.QtPrintSupport',
         # matplotlib
         'matplotlib',
-        'matplotlib.backends.backend_qt5agg',
+        'matplotlib.backends.backend_qtagg',
         'matplotlib.backends.backend_agg',
         'matplotlib.figure',
         'matplotlib.pyplot',

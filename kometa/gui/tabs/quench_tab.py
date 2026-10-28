@@ -1,17 +1,17 @@
 # kometa/gui/tabs/quench_tab.py
 import sys, os, json, traceback, subprocess, platform
-from PyQt5.QtWidgets import (
+from PySide6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QTabWidget, QDialog,
     QVBoxLayout, QHBoxLayout, QGridLayout,
     QLabel, QLineEdit, QPushButton, QComboBox, QCheckBox,
     QFileDialog, QTextEdit, QProgressBar, QSplitter,
-    QGroupBox, QScrollArea, QMessageBox, QFrame, QAction,
+    QGroupBox, QScrollArea, QMessageBox, QFrame,
     QStatusBar, QDoubleSpinBox, QSpinBox, QSizePolicy
 )
-from PyQt5.QtCore  import Qt, QThread, pyqtSignal
-from PyQt5.QtGui   import QFont, QColor, QPalette, QPixmap
+from PySide6.QtCore  import Qt, QThread, Signal
+from PySide6.QtGui   import QFont, QColor, QPalette, QPixmap, QAction
 import matplotlib
-matplotlib.use('Qt5Agg')
+matplotlib.use('QtAgg')
 
 try:
     from ..style import *

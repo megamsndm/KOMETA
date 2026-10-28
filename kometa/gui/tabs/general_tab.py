@@ -1,12 +1,12 @@
 # kometa/gui/tabs/general_tab.py
 import os
-from PyQt5.QtWidgets import (
+from PySide6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QGridLayout,
     QLabel, QLineEdit, QPushButton, QComboBox, QCheckBox,
     QFileDialog, QGroupBox, QScrollArea, QFrame
 )
-from PyQt5.QtCore import Qt
-from PyQt5.QtGui  import QFont
+from PySide6.QtCore import Qt
+from PySide6.QtGui  import QFont
 
 try:
     from ..style import *
