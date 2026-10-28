@@ -52,7 +52,6 @@ datas = [
     ('kometa/gui/tabs/quench_tab.py',         'kometa/gui/tabs'),
 ]
 datas += optional_file('KOMETA_manual.pdf', '.')
-datas += optional_file('LICENSE.txt',       '.')
 datas += optional_file('README.txt',        '.')
 datas += optional_file('CITATION.txt',      '.')
 

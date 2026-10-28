@@ -7,6 +7,7 @@
 *Kinetic Monte Carlo simulation platform for organic molecular semiconductors*
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org)
+
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)]()
 [![PyQt5](https://img.shields.io/badge/GUI-PyQt5-41CD52?logo=qt)](https://riverbankcomputing.com/software/pyqt/)
 
@@ -305,7 +306,6 @@ KOMETA/
 ├── setup.py
 ├── requirements.txt
 ├── README.md
-├── LICENSE.txt
 ├── CITATION.txt
 └── TERMS_OF_USE.txt
 ```
@@ -339,9 +339,9 @@ See [CITATION.txt](CITATION.txt) for ACS and plain-text formats.
 
 ---
 
-## License
+## Terms of Use
 
-All rights reserved.
+See [TERMS_OF_USE.txt](TERMS_OF_USE.txt).
 
 For academic and non-commercial use: citation is required.
 For commercial distribution with PyQt5: a Riverbank commercial license is required.
