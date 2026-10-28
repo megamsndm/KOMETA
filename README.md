@@ -305,9 +305,7 @@ KOMETA/
 ├── build_exe.bat                  ← Windows .exe builder
 ├── setup.py
 ├── requirements.txt
-├── README.md
-├── CITATION.txt
-└── TERMS_OF_USE.txt
+└── README.md
 ```
 
 ---
@@ -335,16 +333,6 @@ If you use KOMETA in your research, please cite:
 }
 ```
 
-See [CITATION.txt](CITATION.txt) for ACS and plain-text formats.
-
----
-
-## Terms of Use
-
-See [TERMS_OF_USE.txt](TERMS_OF_USE.txt).
-
-For academic and non-commercial use: citation is required.
-For commercial distribution with PyQt5: a Riverbank commercial license is required.
 
 ---
 

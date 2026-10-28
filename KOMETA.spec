@@ -53,7 +53,6 @@ datas = [
 ]
 datas += optional_file('KOMETA_manual.pdf', '.')
 datas += optional_file('README.txt',        '.')
-datas += optional_file('CITATION.txt',      '.')
 
 a = Analysis(
     ['kometa_gui.py'],
